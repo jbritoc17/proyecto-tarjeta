@@ -14,17 +14,18 @@ body{
 
 .fade-in {
     opacity: 0;
-    transform: translateY(30px);
-    transition: opacity 1s ease-out, transform 1s ease-out;
+    transform: translateY(20px);
+    animation: fadeInUp 1s ease-out forwards;
   }
 /* Animaciones */
-@keyframes fadeIn {
-   
+
+@keyframes fadeInUp {
     to {
-        opacity: 1;
-        transform: translateY(0);
+      opacity: 1;
+      transform: translateY(0);
     }
-}
+  }
+
 
 /* resposive design */
 @media (max-width: 576px) {
