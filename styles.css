@@ -1,14 +1,18 @@
+/* Estilos de la tarjeta de perfil */
 .perfil-card{
     max-width: 350px;
     background-color: white;
 }
-
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* estilos imagen perfil */
 .imgSize{
     width: 100%;
     height: 250px;
     animation: fadeIn 1s ease-out;
 }
-
+/* Animaciones */
 @keyframes fadeIn {
     from {
         opacity: 0;
@@ -20,6 +24,7 @@
     }
 }
 
+/* resposive design */
 @media (max-width: 576px) {
     .perfil-card {
       margin: 1rem;
